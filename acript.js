@@ -12,8 +12,11 @@ myGrades2.push(50);
 myGrades2.push(40);
 myGrades2.push(30);
 myGrades2.push(20);
-console.log(myGrades2);
+console.log(myGrades2); // Outputs: [100, 95, 80, 75, 70, 60, 50, 40, 30, 20]
 console.log(myGrades2.pop());
 console.log(myGrades2.pop());
 console.log(myGrades2.pop());
-console.log(myGrades2);
+console.log(myGrades2); // Outputs: [100, 95, 80, 75, 70, 60, 50]
+
+let myString = "Jason Salinas";
+console.log(myString.length); // Outputs: 13
